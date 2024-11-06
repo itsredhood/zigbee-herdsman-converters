@@ -60,6 +60,14 @@ const definitions: DefinitionWithExtend[] = [
         ota: ota.zigbeeOTA,
     },
     {
+        zigbeeModel: ['RF 271 T'],
+        model: 'RF 271 T',
+        vendor: 'innr',
+        description: 'Automatically generated definition',
+        extend: [light({"colorTemp":{"range":[153,556]}})],
+    
+    },
+    {
         zigbeeModel: ['FL 142 C'],
         model: 'FL 142 C',
         vendor: 'Innr',
